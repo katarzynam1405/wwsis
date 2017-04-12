@@ -1,0 +1,64 @@
+body{
+    height: 100%;
+    margin: 0;
+     background-color: cornflowerblue;
+}
+.container{
+ width: 90%;
+ background-color: white;
+ margin: 0 auto;
+}
+.logo{
+    width: 40%;
+    background-color: lightpink;
+    height: 200px;
+    display: inline-block;
+}
+.opis-firmy{
+    width: 60%;
+    display:inline-block;
+    background-color: yellow;
+    height: 200px;
+}
+nav{
+    width: 100%;
+    background-color: blue;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.baner{
+    content: url("baner.jpg");
+    width: 100%;
+}
+.nawigacja{
+    display: flex;
+    justify-content: space-around;
+     li{
+        padding-bottom: 10px;
+    }
+}
+.site-content{
+    background-color: orange; 
+    width: 48%;
+    margin: 0;
+    height: 300px;
+    display: inline-block;
+    }
+    .site-content:last-child{
+        display: inline-block;
+        background-color: tomato;
+    }
+
+ footer{
+     display: flex;
+     justify-content: space-between;
+ } 
+ .footer-content{
+    width: 17.5%;
+    height: 300px;
+    float: left;
+    background-color: lightgreen;
+}
